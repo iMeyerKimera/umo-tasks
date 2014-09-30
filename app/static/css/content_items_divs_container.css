@@ -1,0 +1,13 @@
+#content_items_divs_container{
+  border: 1px solid #FAFAFA;
+  width:202px;
+  height:298px;
+  background-color: #FAFAFA;
+}
+#content_items_divs_container>div{
+    background-color: #FAFAFA;
+}
+#content_items_divs_container>div>img{
+  /*width:32.6875%; */
+  max-width:82.6875%;
+}

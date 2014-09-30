@@ -1,0 +1,20 @@
+#content_items_container{
+  /*-webkit-box-shadow: 4px 4px 5px #282b1f;*/
+  /*-moz-box-shadow: 4px 4px 5px #282b1f;*/
+  /*box-shadow: 0px 1px 1px #FAFAFA;*/
+  /*opacity: 0.5;*/
+  width:205px;
+  height:300px;
+  color:#B6AFA9; /* Titanium Fallback */
+  color:hsla(28, 8%, 69%, 1);
+  display:inline-block;
+  border:1px solid #FAFAFA;
+  margin:15px 10px;
+  padding:1px auto;
+    background-color:#FAFAFA; /* Fallback */
+    background-color:hsla(0, 0%, 98%, 1);
+}
+#content_items_container:hover{
+    background-color:#FAFAFA; /* Fallback */
+    background-color:hsla(0, 0%, 98%, 1);
+}

@@ -1,0 +1,11 @@
+.login_container{
+    margin: 2em auto;
+    padding: 0.8em;
+}
+
+flash, .error {
+    background-color: #f4f4f4;
+    color:#B6AFA9; /* Titanium Fallback */
+    color:hsla(28, 8%, 69%, 1);
+    padding: 0.5em;
+}

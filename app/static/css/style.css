@@ -1,0 +1,34 @@
+/* Body Style */
+@media screen {
+  body {
+    /* font: normal 100% arial,sans-serif;  */
+    font-size:100%;
+    font-family: arial,sans-serif;
+    letter-spacing: 0.8px; /* target(target font size)/context(font size of containing element) | 1em = 10px | 0.8/10 = 0.08em */
+    margin:0px;
+    background-color:#FAFAFA; /* Fallback */
+    background-attachment: fixed!important;
+    background-color:hsla(0, 0%, 98%, 1);
+    color:#B6AFA9; /* Titanium Fallback */
+    color:hsla(28, 8%, 69%, 1);
+  }
+  a{
+    text-decoration: none;
+  }
+}
+
+@media print {
+  body {
+    font-size:100%;
+    font-family: arial,sans-serif;
+    letter-spacing: 0.8px;
+    margin:0px;
+    background-color:#FAFAFA; /* Fallback */
+    background-color:hsla(0, 0%, 98%, 1);
+    color:#B6AFA9; /* Titanium Fallback */
+    color:hsla(28, 8%, 69%, 1);
+  }
+   a{
+    text-decoration: none;
+  }
+}

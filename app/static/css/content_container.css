@@ -1,0 +1,8 @@
+#content_container{
+  float:right;
+  width:95%;
+  background-color:#F0F0F0; /* Fallback */
+  background-color: hsla(0, 0%, 94%, 1);
+  min-height: 416px;
+  text-align:center;
+}
